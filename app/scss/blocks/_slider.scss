@@ -12,8 +12,6 @@
     right: 80px;
     bottom: 116px;
     text-align: right;
-    color: #fff;
-    text-transform: uppercase;
 
 }
 
@@ -57,7 +55,6 @@
     bottom: 36px;
     max-width: 920px;
     width: 100%;
-    color: #fff;
 
     .slick-current {
         .dots-box {
@@ -85,5 +82,6 @@
     &__name {
         font-weight: 300;
         line-height: 19px;
+        text-transform: capitalize;
     }
 }
