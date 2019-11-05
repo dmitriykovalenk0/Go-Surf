@@ -37,6 +37,13 @@
     margin-bottom: 20px;
 }
 
+.slider-map {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 635px;
+    background: url(../img/world-map-dots.png) no-repeat center/cover;
+}
+
 .slider-arrows {
     position: absolute;
     z-index: 4;
