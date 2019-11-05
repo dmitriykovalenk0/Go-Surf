@@ -28,4 +28,11 @@ $(function () {
         asNavFor: '.surf-slider',
         focusOnSelect: true
     });
+
+    $('.travel__slider').slick({
+        infinity: true,
+        fade: true,
+        nextArrow: '<img class="slider-arrows slider-arrows__right" src="img/arrows-right.svg"alt="">',
+        prevArrow: '<img class="slider-arrows slider-arrows__left" src="img/arrows-left.svg"alt="">',
+    })
 })
